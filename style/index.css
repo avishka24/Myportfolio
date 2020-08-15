@@ -1,0 +1,59 @@
+h1{
+
+    text-shadow: 4px 4px 5px lightgrey,0px 0px 5px black;
+    letter-spacing: 3px;
+    color:whitesmoke;
+ 
+}
+form{
+    font-family:sans-serif;
+    
+}
+
+    
+    #image{
+        background-image:url(zara1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        background-size: cover;
+        height: 683px;
+        opacity:0.7;
+    }
+#para{
+    font-family: cursive;
+    
+}
+    *{
+        box-sizing: border-box;
+    }
+    #container{
+        width:580px;
+        height:590px;
+        margin-left: 600px;
+        margin-top: 40px;
+        position: absolute;
+        border: 1px solid black;
+        border-radius: 12px;
+        background-color:black;
+        opacity:0.9;
+        color:whitesmoke;
+    }
+
+    .typ{
+        position: relative;
+        color: black;
+        background-color: white;
+        width: 160px;
+        top: 436px;
+        right: 645px;
+    }
+    
+    .btn{
+        cursor: pointer;
+    }
+    .btn:hover{
+    opacity: 0.8;
+    }
+    
+

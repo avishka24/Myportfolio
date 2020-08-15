@@ -1,0 +1,266 @@
+body{
+margin: 0;
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+    color:#40514e;
+    text-align: center;
+    font-family: sans-serif;
+   
+}
+.div1{
+    background-color: #ddf3f5;
+   margin: 0;
+    padding: 0;
+    position: relative;
+    height:30em;
+    width: 100%;
+}
+#name{
+  
+    margin: 0px auto 0 auto;
+    font-size: 5.625rem;
+padding-top:5%;
+    color:#66bfbf;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+     color:#66bfbf;
+    
+}
+
+p{
+    color:black;
+    line-height: 2;
+    margin: auto;
+}
+hr{
+border:dotted #EAF6F6 6px; 
+    margin: auto;
+    border-bottom: none;
+    width:4%;
+  
+ 
+}
+
+
+}
+#image1{
+    height:600px;
+    width:99.5%;
+   opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+
+  .maindiv{
+      float:left;
+        height:300px;
+        width:250px;
+        background-color:transparent;
+        position: relative;
+        perspective: 1000px;
+        padding:40px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        font-family: 'Lemonada', cursive;
+     
+    }
+.maindiv p{
+    color:#eeeeee;
+    font-family: 'Lemonada', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+    img{
+        height:300px;
+        width:250px;
+    }
+    .innerdiv{
+       
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.6s;
+          transform-style: preserve-3d;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    .cardb{
+        color:white;
+        background-color:#00adb5;
+        transform: rotateY(180deg);
+        height:300px;
+        width:250px;
+         position:absolute;
+        animation:back 2s infinite;
+    }
+    
+    .maindiv:hover .innerdiv{
+        transform: rotateY(180deg);
+        cursor:pointer;
+        box-shadow: 0 0 8px gray;
+        
+    }
+    .cardf{
+        position:absolute;
+      background-color: black;
+        color:white;
+      
+    }
+@keyframes back{
+    20%{
+        color:lightgoldenrodyellow;
+    }
+    40%{
+        color:lightcyan;
+    }
+    60%{
+color:lightsteelblue;
+    }
+    80%{
+        color:antiquewhite;
+    }
+    100%{
+        color:lightpink;
+    }
+    
+}
+.cardiv{
+    padding: 50px;
+    
+}
+    #line{
+       
+        font-size:20px;
+        font-family: sans-serif;
+        
+        text-align: left;
+        color: #86c4ba;
+}
+
+    input{
+        background-color: transparent;
+        border-bottom:1px solid grey;
+        border-top:transparent;
+        border-right: transparent;
+        border-left:transparent;
+        width:350px;
+        height:50px;
+      margin:40px 20px 20px 20px;
+       
+        transform: 0.5;
+    }
+    input:hover{
+        border-bottom: 2px solid #00adb5;
+        background-color: gainsboro;
+        opacity: 0.5;
+        
+    }
+    button{
+        border:1px solid transparent;
+       
+        margin: auto;
+        height:50px;
+        width:110px;
+        padding: 10px;
+        border-radius: 3px;
+        animation:button 2s infinite;
+        box-shadow: 0 0 5px black;
+        background-color:lightgray;
+    }
+@keyframes button{
+    50%{
+     background-color: black;
+        color:white;
+        box-shadow: 0 0 8px gray;
+    }
+    100%{
+         background-color: #ddf3f5;
+    }
+}
+    
+    #msg{
+      background-color: transparent;
+        border-bottom:1px solid grey;
+        border-top:transparent;
+        border-right: transparent;
+        border-left:transparent;
+        margin: auto;
+        width:750px;
+}
+        #msg:hover{
+        border-bottom: 2px solid #00adb5;
+        background-color: gainsboro;
+        opacity: 0.5;
+    }
+
+#lastdiv{
+  width:100%;
+  padding: 10px;
+    padding-bottom: 70px;
+}
+
+/***********************Icons***************************/
+.av{
+
+padding: 20px 0;
+}
+
+.av i{
+    
+    display: inline-block;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    color:gainsboro;
+    font-size:28px;
+    text-align: center;
+    margin-top:20px;
+    margin-left:40px;
+    justify-content: left;
+    animation:demo 4s infinite;
+    
+}
+#en i:hover{
+    background-color:red;
+    color:white;
+}
+#fa i:hover{
+    background-color: dodgerblue;
+    color:white;
+}
+#tw i:hover{
+    background-color:deepskyblue;
+    color:white;
+}
+#in i:hover{
+  background-color: deeppink;
+    background-color:linear-gradient(to bottom,deeppink,yellow,purple);
+    color:white;
+}
+#gi i:hover{
+    background-color: black;
+
+    color:white;
+}
+
+
+@keyframes demo{
+    50%{transform:  rotate(360deg);}
+}
+.copyright{
+font-size: 0.75rem;
+    color: #eaf6f6;
+    padding: 20px 0;
+}
